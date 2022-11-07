@@ -1,6 +1,5 @@
 package pki;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import javax.crypto.BadPaddingException;
@@ -11,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.util.Arrays;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RSAEncryptionTest {
 

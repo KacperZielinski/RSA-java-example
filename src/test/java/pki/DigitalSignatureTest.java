@@ -76,8 +76,8 @@ public class DigitalSignatureTest {
      *  message: "signedMessage"
      *  digital signature: "8ksaj12kh"
      *
-     * receiver decrypt digital signature using public key of sender:
-     *  var matches = dec("12jk4hkh12", "pub512");
+     * receiver decrypt digital signature using public key of man in the middle:
+     *  var matches = dec("8ksaj12kh", "pub11111");
      *  if matches == message, then signed message is valid (tampered !!!!!)
      *
      *  We have to be sure that we know and trust the public key we got!
